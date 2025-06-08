@@ -1,0 +1,83 @@
+footer {
+    min-height: 455px;
+    width: 100%;
+    background-color: #EE4367;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+
+    .logo {
+        position: relative;
+        width: 92px;
+        height: 42px;
+        border: solid 2px #ffff;
+        top : 30px;
+
+
+        span{
+            position: absolute;
+            bottom: -5px;
+            color: #ffff;
+            font-family: 'Gill Sans';
+
+        }
+
+    }
+
+    .contact {
+        width: 244px;
+        height: 200px;
+        margin-top: 50px;
+        text-align: center;
+        
+    }
+
+    .signup {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 180px;
+        input {
+            height: 100%;
+            width: 529px;
+            background-color: #F56B88;
+            border: none;
+
+        }
+
+        .button {
+            height: 100%;
+            width: 167px;
+            background-color: #fff;
+            color: #EE4367;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width:900px) {
+    footer{
+
+        .logo {
+            height: 84px;
+            width: 184px;
+            font-size: 30px;
+        }
+
+        .signup {
+            height: 100px;
+            width: 300px;
+            
+    }
+    }
+   
+}
